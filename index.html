@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiragana Drill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+    <h1>Hiragana Drill</h1>
+    <p id="instruction">Type the romaji for the character below:</p>
+
+    <div id="card">
+      <span id="kana">あ</span>
+    </div>
+
+    <form id="quiz-form">
+      <input type="text" id="answer" placeholder="Type romaji here..." autocomplete="off">
+      <button type="submit" id="check-btn">Check</button>
+    </form>
+
+    <p id="feedback"></p>
+
+    <div id="scoreboard">
+      <span>✅ Correct: <strong id="correct">0</strong></span>
+      <span>❌ Wrong: <strong id="wrong">0</strong></span>
+      <span>📋 Total: <strong id="total">0</strong></span>
+    </div>
+
+    <button id="skip-btn">Skip</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
