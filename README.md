@@ -39,3 +39,6 @@ Open `index.html` in any web browser. No installation or server needed.
  style.css    Styling and visual design    
  script.js    App logic (quiz, scoring, events)  
  README.md    This file                          
+
+## Prototype
+![Hiragana Drill prototype](prototype.png)
